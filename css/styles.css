@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-color: #283149;
+}
+h1
+{
+    font-family: 'Alegreya Sans SC', sans-serif ;
+    color: lightblue;
+    text-shadow:3px 0 lightseagreen;
+    font-size: 5rem;
+    font-weight: 600;
+    /* font-style: italic; */
+}
+.set
+{
+    margin: 10% auto;
+}
+.drum
+{
+    outline: none;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif ;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 2;
+    color:lightseagreen;
+    border: 10px solid #404B69;
+    text-shadow:3px 0 lightseagreen;
+    border-radius: 10%;
+}
+.w{
+   background-image: url("/images/tom1.png"); 
+}
+.a
+{
+    background-image: url("/images/tom2.png");
+}
+.s{
+    background-image: url("/images/tom3.png");
+}
+.d
+{
+    background-image: url("/images/tom4.png");
+}
+.j
+{
+    background-image: url("/images/snare.png");
+}
+.k
+{
+    background-image: url("/images/crash.png");
+}
+.l
+{
+    background-image: url("/images/kick.png");
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+footer
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+    text-align: center;
+    color: lightblue;
+}
+
+.icon-s
+{
+    padding: 0px 10px;
+    color: white;
+}
+.icon-s:hover{
+    color: lightseagreen;
+}
